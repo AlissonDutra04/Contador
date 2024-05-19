@@ -1,0 +1,37 @@
+.contador-container {
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  margin: 20px auto;
+  max-width: 300px;
+}
+
+.contador-titulo {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.contador-valor {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.contador-botoes {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contador-botao {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.contador-botao:hover {
+  background-color: #0056b3;
+}
